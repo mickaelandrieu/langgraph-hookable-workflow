@@ -1,0 +1,57 @@
+# ===================================================================
+# REQUIREMENTS.TXT - HYBRID SEARCH LANGGRAPH
+# Versions les plus récentes au 8 août 2025
+# ===================================================================
+
+# CORE DEPENDENCIES - LangGraph et LangChain
+# -------------------------------------------------------------------
+langgraph==0.6.4                    # Framework principal LangGraph
+langchain-core==0.3.27              # Base abstractions LangChain
+langchain==0.3.27                   # Framework LangChain complet
+
+# LLM PROVIDERS - OpenAI et alternatives
+# -------------------------------------------------------------------
+langchain-openai==0.3.28            # Intégration OpenAI pour LangChain
+openai==1.55.0                      # SDK OpenAI officiel
+langchain-anthropic==0.3.4          # Alternative: Claude/Anthropic
+
+# MACHINE LEARNING & SEARCH
+# -------------------------------------------------------------------
+scikit-learn==1.5.1                 # TF-IDF et métriques ML
+numpy==2.1.0                        # Calculs vectoriels
+sentence-transformers==3.0.1        # Embeddings sémantiques réels
+torch==2.4.0                        # Backend PyTorch pour transformers
+
+# TRAITEMENT LANGAGE NATUREL
+# -------------------------------------------------------------------
+spacy==3.8.2                        # NLP avancé pour preprocessing
+https://github.com/explosion/spacy-models/releases/download/fr_core_news_sm-3.8.0/fr_core_news_sm-3.8.0-py3-none-any.whl  # Modèle français spaCy
+
+# SYSTÈME DE PLUGINS
+# -------------------------------------------------------------------
+pluggy==1.5.0                       # Système de hooks modulaire
+
+# UTILITAIRES & PERFORMANCE
+# -------------------------------------------------------------------
+pydantic==2.9.2                     # Validation de données
+typing-extensions==4.12.2           # Extensions de types Python
+asyncio==3.4.3                      # Support asynchrone
+
+# BASES DE DONNÉES VECTORIELLES (OPTIONNEL)
+# -------------------------------------------------------------------
+# weaviate-client==4.8.0            # Base vectorielle Weaviate
+# pinecone-client==5.0.1            # Base vectorielle Pinecone  
+# chromadb==0.5.5                   # Base vectorielle locale ChromaDB
+
+# MONITORING & OBSERVABILITÉ (OPTIONNEL)
+# -------------------------------------------------------------------
+langsmith==0.1.129                  # Observabilité LangChain
+# prometheus-client==0.20.0         # Métriques Prometheus
+
+# DÉVELOPPEMENT & TESTS (OPTIONNEL)
+# -------------------------------------------------------------------
+# pytest==8.3.3                     # Framework de tests
+# pytest-asyncio==0.24.0            # Tests asynchrones
+# black==24.8.0                     # Formatage de code
+# isort==5.13.2                     # Tri des imports
+# mypy==1.11.2                      # Vérification de types
